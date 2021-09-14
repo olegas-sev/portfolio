@@ -1,0 +1,16 @@
+@tailwind components;
+
+/* 
+#1a1a1a - small
+#848484 - font color
+#ececec - hover links
+*/
+
+@layer components {
+    .divider {
+        @apply w-full h-[1px] bg-[#ECECEC];
+    }
+    .navlink {
+        @apply ml-1 text-lg font-semibold text-[#848484] rounded p-[10px] hover:bg-[#ececec] hover:text-[#1a1a1a] transition duration-200
+    }
+}
