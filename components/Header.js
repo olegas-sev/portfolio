@@ -2,12 +2,12 @@ import Link from "next/link";
 
 function Header() {
     return (
-        <header className="sticky top-0 z-50 h-24 ">
-            <div className="max-w-4xl ">
-                <div className="flex flex-row items-center h-24 justify-between">
+        <header className="sticky top-0 z-50 ">
+            <div className="max-w-4xl mx-auto">
+                <div className="flex flex-row items-center h-24 justify-between py-6 px-5">
                     <div className="flex flex-row items-center">
                         {/* Left */}
-                        <h2 className="font-bold text-2xl transition duration-300 hover:opacity-60">
+                        <h2 className="font-bold text-xl transition duration-300 hover:opacity-60 ease-out">
                             <Link href="/">
                                 <a className="tracking-wide">Olegas Sev</a>
                             </Link>
@@ -25,7 +25,7 @@ function Header() {
                     {/* Right */}
                     <div>
                         <Link href="#">
-                            <a className="ml-5 text-lg font-bold text-[#1a1a1a] transition duration-300 hover:opacity-60">
+                            <a className="ml-5 text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out">
                                 Contact me
                             </a>
                         </Link>

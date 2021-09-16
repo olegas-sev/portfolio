@@ -11,6 +11,9 @@
         @apply w-full h-[1px] bg-[#ECECEC];
     }
     .navlink {
-        @apply ml-1 text-lg font-semibold text-[#848484] rounded p-[10px] hover:bg-[#ececec] hover:text-[#1a1a1a] transition duration-200
+        @apply ml-1 text-base font-semibold text-[#848484] rounded p-[10px] hover:bg-[#ececec] hover:text-[#1a1a1a] transition duration-200 ease-out;
+    }
+    .main-container {
+        @apply max-w-4xl my-auto mx-auto py-6;
     }
 }
