@@ -16,4 +16,7 @@
     .main-container {
         @apply max-w-4xl my-auto mx-auto py-6;
     }
+    text-custom-gray {
+        @apply text-[#1a1a1a]
+    }
 }

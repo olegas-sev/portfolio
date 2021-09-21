@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Hero from '../components/Hero'
 import MainLayout from '../layouts/MainLayout'
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
       <MainLayout>
 
 
-
+      <Hero />
       {/* Hero */}
       {/* Projects */}
       {/* Contact */}
