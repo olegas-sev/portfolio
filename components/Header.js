@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useState } from "react";
-
 function Header() {
     const [open, isOpen] = useState(false)
     function classNames(...classes) {
@@ -8,7 +7,7 @@ function Header() {
     }
 
     return (
-        <header className="sticky top-0 z-50 md:px-5">
+        <header className="sticky top-0 z-50 md:px-5 bg-[#FFF]">
             <div className="h-24 max-w-4xl mx-auto">
                 <div className="flex flex-row items-center justify-between py-6 ">
                     <div className="flex flex-row items-center">
