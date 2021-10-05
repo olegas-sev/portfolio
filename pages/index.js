@@ -10,10 +10,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+    
       <MainLayout>
 
 
       <Hero />
+      <div className="container-default">
+        <div className="divider"></div>
+      </div>
       {/* Hero */}
       {/* Projects */}
       {/* Contact */}

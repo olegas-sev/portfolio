@@ -8,7 +8,7 @@ function Header() {
 
     return (
         <header className="sticky top-0 z-50 md:px-5 bg-[#FFF]">
-            <div className="h-24 max-w-4xl mx-auto">
+            <div className="h-24 max-w-[893px] px-6 mx-auto">
                 <div className="flex flex-row items-center justify-between py-6 ">
                     <div className="flex flex-row items-center">
                         {/* Left */}
@@ -61,7 +61,7 @@ function Header() {
 
                 </div>
                 <div className="divider" />
-                <div className={classNames(!open ? 'hidden' : null, '  mobile-menu')}
+                <div className={classNames(!open ? 'hidden' : null, 'mobile-menu bg-[#FFF]')}
                 >
 				<nav>
                     <Link href="/about">

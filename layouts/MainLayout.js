@@ -2,7 +2,7 @@ import Header from '../components/Header'
 
 function MainLayout(props) {
     return (
-        <div>
+        <div className="mx-5">
             <Header />
             {props.children}
         </div>
