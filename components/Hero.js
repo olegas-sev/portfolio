@@ -19,7 +19,7 @@ function Hero() {
                             et, at quis purus.
                         </p>
                         <Link href="#">
-                            <a className="text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out">
+                            <a className="text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">
                                 Contact me
                             </a>
                         </Link>

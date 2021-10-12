@@ -1,6 +1,9 @@
 import Head from 'next/head'
-import Hero from '../components/Hero'
+// Layouts
 import MainLayout from '../layouts/MainLayout'
+// Compontents
+import Hero from '../components/Hero'
+import AboutMe from '../components/AboutMe'
 import Divider from '../components/Divider'
 
 export default function Home() {
@@ -16,7 +19,8 @@ export default function Home() {
 
       <Hero />
       <Divider />
-
+      <AboutMe />
+      <Divider />
       
       {/* Hero */}
       {/* Projects */}

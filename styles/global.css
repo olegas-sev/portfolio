@@ -16,8 +16,11 @@
     .container-default {
         @apply max-w-[893px] mx-auto px-6;
     }
-    .text-custom-gray {
+    h1, h2, h3, h4, h5, h6, p {
         @apply text-[#1a1a1a];
+    }
+    .section-title {
+        @apply mt-0 mb-4 text-[2rem] font-semibold;
     }
     .section-padding {
         @apply pt-8 pb-16 md:py-20 lg:py-28;
