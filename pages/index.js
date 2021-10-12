@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Hero from '../components/Hero'
 import MainLayout from '../layouts/MainLayout'
+import Divider from '../components/Divider'
 
 export default function Home() {
   return (
@@ -13,11 +14,10 @@ export default function Home() {
     
       <MainLayout>
 
-
       <Hero />
-      <div className="container-default">
-        <div className="divider"></div>
-      </div>
+      <Divider />
+
+      
       {/* Hero */}
       {/* Projects */}
       {/* Contact */}
