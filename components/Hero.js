@@ -5,7 +5,7 @@ import Link from "next/link";
 console.log(portfolio);
 function Hero() {
     return (
-        <section className="pt-8 pb-16 md:py-20 lg:py-28">
+        <section className="section-padding">
             <div className="container-default">
                 <div className="home-hero-wrapper sm:items-center flex justify-between flex-col sm:flex-row">
                     <div className="home-hero-left max-w-[499px] mr-[20px] mb-10 sm:m-0">

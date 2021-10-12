@@ -16,7 +16,10 @@
     .container-default {
         @apply max-w-[893px] mx-auto px-6;
     }
-    text-custom-gray {
-        @apply text-[#1a1a1a]
+    .text-custom-gray {
+        @apply text-[#1a1a1a];
+    }
+    .section-padding {
+        @apply pt-8 pb-16 md:py-20 lg:py-28;
     }
 }
