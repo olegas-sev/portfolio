@@ -14,9 +14,7 @@ function Hero() {
                             <br />A web developer.
                         </h1>
                         <p className="mb-10">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit dapibus porta lorem morbi hendrerit. Maecenas
-                            et, at quis purus.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero asperiores fugiat facere molestiae. Ipsam aliquam in facere nemo, nostrum asperiores.
                         </p>
                         <Link href="#">
                             <a className="text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">
