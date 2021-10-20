@@ -72,7 +72,7 @@ function Projects() {
                                     Frontend
                                 </h6>
                                 <p className="text-[#848484] font-medium">
-                                    I've used Vue v2 on my school project
+                                    I've used Vue v2 for my school project
                                 </p>
                             </a>
                         </Link>
