@@ -62,10 +62,10 @@ function Projects() {
                                     <img
                                         src={VueLogo.src}
                                         alt="Vue logo"
-                                        className="w-full h-full object-cover bg-[#fff] rounded-2xl"
+                                        className="w-full h-full object-cover bg-[#1A1C24] rounded-2xl p-2"
                                     />
                                 </div>
-                                <h5 class="mb-3 text-lg text-[#ad7d7d] font-medium">
+                                <h5 class="mb-3 text-lg text-[#848484] font-medium">
                                     Vue
                                 </h5>
                                 <h6 class="text-[#1a1a1a] mb-[14px] text-2xl font-semibold">

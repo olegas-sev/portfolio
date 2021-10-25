@@ -7,9 +7,9 @@ function Header() {
     }
 
     return (
-        <header className="sticky top-0 z-50 md:px-5 bg-[#FFF]">
+        <header className="sticky top-0 z-50 md:px-5">
             <div className="h-24 max-w-[893px] px-6 mx-auto">
-                <div className="flex flex-row items-center justify-between py-6 ">
+                <div className="flex flex-row items-center justify-between py-6 bg-[#FFF]">
                     <div className="flex flex-row items-center">
                         {/* Left */}
                         <h2 className="font-bold text-xl transition duration-300 hover:opacity-60 ease-out">
@@ -29,9 +29,9 @@ function Header() {
                     </div>
                     {/* Right */}
                     <div className="hidden md:flex items-center" >
-                        <Link href="#">
+                        <Link href="/contact-me">
                             <a className="ml-5 text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out">
-                                Contact me
+                                Contact Me
                             </a>
                         </Link>
                     </div>
@@ -61,7 +61,7 @@ function Header() {
 
                 </div>
                 <div className="divider" />
-                <div className={classNames(!open ? 'hidden' : null, 'mobile-menu bg-[#FFF]')}
+                <div className={classNames(!open ? 'hidden' : null, 'mobile-menu bg-gray-50 w-screen absolute left-0 px-6')}
                 >
 				<nav>
                     <Link href="/about">
