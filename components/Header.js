@@ -7,7 +7,7 @@ function Header() {
     }
 
     return (
-        <header className="sticky top-0 z-50 md:px-5">
+        <header className="sticky top-0 z-50">
             <div className="h-24 max-w-[893px] px-6 mx-auto">
                 <div className="flex flex-row items-center justify-between py-6 bg-[#FFF]">
                     <div className="flex flex-row items-center">
