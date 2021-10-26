@@ -21,8 +21,6 @@ export default function Home() {
                 <AboutMe />
                 <Divider />
                 <Projects />
-                <Divider />
-                <Footer />
             </MainLayout>
         </div>
     );

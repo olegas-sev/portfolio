@@ -1,3 +1,5 @@
+import Divider from '../components/Divider'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 function MainLayout(props) {
@@ -5,6 +7,8 @@ function MainLayout(props) {
         <div className="mx-5">
             <Header />
             {props.children}
+            <Divider />
+            <Footer />
         </div>
     )
 }

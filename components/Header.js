@@ -5,10 +5,9 @@ function Header() {
     function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
     }
-
     return (
         <header className="sticky top-0 z-50">
-            <div className="h-24 max-w-[893px] px-6 mx-auto">
+            <div id="navbar-observer" className="max-w-[893px] px-6 mx-auto">
                 <div className="flex flex-row items-center justify-between py-6 bg-[#FFF]">
                     <div className="flex flex-row items-center">
                         {/* Left */}
@@ -38,11 +37,11 @@ function Header() {
                     {/* Mobile */}
                     <div className="md:hidden flex items-center">
                         <button className="outline-none mobile-menu-button"
-                        onClick={() => {
-                            isOpen(!open)
-                            console.log(open);
-                        }
-                        }
+                            onClick={() => {
+                                isOpen(!open)
+                                console.log(open);
+                            }
+                            }
                         >
                             <svg
                                 className="w-6 h-6 text-gray-500"
@@ -63,18 +62,18 @@ function Header() {
                 <div className="divider" />
                 <div className={classNames(!open ? 'hidden' : null, 'mobile-menu bg-gray-50 w-screen absolute left-0 px-6')}
                 >
-				<nav>
-                    <Link href="/about">
-                        <a className="block text-sm px-2 py-4 text-custom-gray bg-gray-50 font-semibold">About</a> 
-                    </Link>
-                    <Link href="/projects">
-                        <a className="block text-sm px-2 py-4 text-custom-gray hover:bg-gray-50 transition duration-300 font-semibold">Projects</a> 
-                    </Link>
-				</nav>
-			</div>
+                    <nav>
+                        <Link href="/about">
+                            <a className="block text-sm px-2 py-4 text-custom-gray bg-gray-50 font-semibold">About</a>
+                        </Link>
+                        <Link href="/projects">
+                            <a className="block text-sm px-2 py-4 text-custom-gray hover:bg-gray-50 transition duration-300 font-semibold">Projects</a>
+                        </Link>
+                    </nav>
+                </div>
             </div>
         </header>
-        
+
     );
 }
 

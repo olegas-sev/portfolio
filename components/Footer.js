@@ -3,9 +3,9 @@ import Divider from "./Divider"
 
 function Footer() {
     return (
-        <section className="section-padding">
+        <section className="pb-5">
             <div className="container-default text-center mt-10">
-                <div className="flex items-center justify-center flex-col mb-10">
+                <div className="flex items-center justify-center flex-col  md:flex-row md:justify-between mb-10">
                     <h2 className="font-bold text-xl transition duration-300 hover:opacity-60 ease-out mb-5">
                         <Link href="/">
                             <a className="tracking-wide">Olegas Sev</a>
@@ -37,6 +37,9 @@ function Footer() {
                     </div>
                 </div>
                 <Divider />
+                <div className="small-print mt-5 ">
+                    Copyright © <a href="https://github.com/olegas-sev" className="text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">OlegasSev</a> | Portfolio 2021 
+                </div>
             </div>
         </section>
     );

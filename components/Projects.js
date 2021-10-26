@@ -21,10 +21,10 @@ function Projects() {
                                         className="w-full h-full object-cover bg-[#f0db4f] rounded-2xl"
                                     />
                                 </div>
-                                <h5 class="mb-3 text-lg text-[#848484] font-medium">
+                                <h5 className="mb-1 text-lg text-[#848484] font-medium">
                                     Vanila JS
                                 </h5>
-                                <h6 class="text-[#1a1a1a] mb-[14px] text-2xl font-semibold">
+                                <h6 className="text-[#1a1a1a] mb-[14px] text-2xl font-semibold">
                                     Frontend
                                 </h6>
                                 <p className="text-[#848484] font-medium">
@@ -43,10 +43,10 @@ function Projects() {
                                         className="w-full h-full object-cover bg-[#222222] rounded-2xl"
                                     />
                                 </div>
-                                <h5 class="mb-3 text-lg text-[#848484] font-medium">
+                                <h5 className="mb-1 text-lg text-[#848484] font-medium">
                                     React
                                 </h5>
-                                <h6 class="text-[#1a1a1a] mb-[14px] text-2xl font-semibold">
+                                <h6 className="text-[#1a1a1a] mb-[14px] text-2xl font-semibold">
                                     Frontend
                                 </h6>
                                 <p className="text-[#848484] font-medium">
@@ -65,10 +65,10 @@ function Projects() {
                                         className="w-full h-full object-cover bg-[#1A1C24] rounded-2xl p-2"
                                     />
                                 </div>
-                                <h5 class="mb-3 text-lg text-[#848484] font-medium">
+                                <h5 className="mb-1 text-lg text-[#848484] font-medium">
                                     Vue
                                 </h5>
-                                <h6 class="text-[#1a1a1a] mb-[14px] text-2xl font-semibold">
+                                <h6 className="text-[#1a1a1a] mb-[14px] text-2xl font-semibold">
                                     Frontend
                                 </h6>
                                 <p className="text-[#848484] font-medium">

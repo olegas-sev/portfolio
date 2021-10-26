@@ -1,5 +1,4 @@
 import portfolio from "../public/portfolio.jpg";
-import Image from "next/image";
 import Link from "next/link";
 
 console.log(portfolio);
@@ -26,8 +25,6 @@ function Hero() {
                         <img
                             src={portfolio.src}
                             className="rounded-2xl w-full max-w-[298px]"
-                            layout="fill"
-                            objectFit="cover"
                         />
                     </div>
                 </div>
