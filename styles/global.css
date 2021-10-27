@@ -22,6 +22,9 @@
     .section-title {
         @apply mt-0 mb-4 text-[2rem] font-semibold;
     }
+    .section-subtitle {
+        @apply mt-0 mb-4 text-3xl font-semibold;
+    }
     .section-padding {
         @apply pt-8 pb-16 md:py-20 lg:py-28;
     }

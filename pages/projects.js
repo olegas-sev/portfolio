@@ -2,10 +2,8 @@ import Head from "next/head";
 // Layouts
 import MainLayout from "../layouts/MainLayout";
 // Compontents
-import Hero from "../components/Hero";
-import AboutMe from "../components/AboutMe";
-import Divider from "../components/Divider";
-import Technologies from "../components/Technologies";
+import Projects from "../components/Projects";
+
 
 export default function Home() {
     return (
@@ -15,11 +13,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <MainLayout>
-                <Hero />
-                <Divider />
-                <AboutMe />
-                <Divider />
-                <Technologies />
+                <Projects />
             </MainLayout>
         </div>
     );

@@ -23,7 +23,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li className="py-3 ml-0 mb-0">
-                            <Link href="/">
+                            <Link href="/projects">
                                 <a className="p-3 text-[#848484] inline-block rounded hover:bg-[#ececec] hover:text-[#1a1a1a] font-medium">Projects</a>
                             </Link>
                         </li>

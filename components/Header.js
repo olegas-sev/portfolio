@@ -18,10 +18,10 @@ function Header() {
                         </h2>
                         {/* Middle */}
                         <nav className="hidden md:flex ml-8">
-                            <Link href="#">
+                            <Link href="/about">
                                 <a className="navlink">About</a>
                             </Link>
-                            <Link href="#">
+                            <Link href="/projects">
                                 <a className="navlink">Projects</a>
                             </Link>
                         </nav>
