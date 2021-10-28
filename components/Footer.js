@@ -38,7 +38,7 @@ function Footer() {
                 </div>
                 <Divider />
                 <div className="small-print mt-5 ">
-                    Copyright © <a href="https://github.com/olegas-sev" className="text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">OlegasSev</a> | Portfolio 2021 
+                    Made with ❤️ by <a href="https://github.com/olegas-sev" className="text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">OlegasSev</a> | Portfolio 2021 
                 </div>
             </div>
         </section>

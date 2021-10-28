@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { useState } from "react";
+
 function Header() {
     const [open, isOpen] = useState(false)
     function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
     }
+    
     return (
         <header className="sticky top-0 z-50">
             <div id="navbar-observer" className="max-w-[893px] px-6 mx-auto">
@@ -23,6 +25,9 @@ function Header() {
                             </Link>
                             <Link href="/projects">
                                 <a className="navlink">Projects</a>
+                            </Link>
+                            <Link href="/assets/Resume.pdf">
+                                <a className="navlink">Resume</a>
                             </Link>
                         </nav>
                     </div>
@@ -68,6 +73,9 @@ function Header() {
                         </Link>
                         <Link href="/projects">
                             <a className="block text-sm px-2 py-4 text-custom-gray hover:bg-gray-50 transition duration-300 font-semibold">Projects</a>
+                        </Link>
+                        <Link href="/assets/Resume.pdf">
+                            <a className="block text-sm px-2 py-4 text-custom-gray hover:bg-gray-50 transition duration-300 font-semibold">Resume</a>
                         </Link>
                     </nav>
                 </div>

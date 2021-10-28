@@ -1,7 +1,7 @@
 import Link from "next/link";
-import VueLogo from "../public/vuejs3.png";
-import ReactLogo from "../public/react.png";
-import VanillaJsLogo from "../public/vanilla-javascript.svg";
+import VueLogo from "../public/assets/images/vuejs.png";
+import ReactLogo from "../public/assets/images/react.png";
+import VanillaJsLogo from "../public/assets/images/vanilla-javascript.svg";
 
 function Technologies() {
     return (

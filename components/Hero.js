@@ -1,4 +1,4 @@
-import portfolio from "../public/portfolio.jpg";
+import portfolio from "../public/assets/images/portfolio.jpg";
 import Link from "next/link";
 
 console.log(portfolio);
