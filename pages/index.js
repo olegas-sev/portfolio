@@ -23,9 +23,6 @@ export default function Home() {
                 <meta property="og:title" content="Olegas Sevcenko | Portfolio" />
                 <meta property="og:description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
                 <meta property="og:image" content={coverImg.src} />
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:image" content={coverImg.src} />
-                <meta property="twitter:site" content="@webdevhusky" />
             </Head>
             <MainLayout>
                 <Hero />
