@@ -6,7 +6,6 @@ import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import Divider from "../components/Divider";
 import Technologies from "../components/Technologies";
-import portfolio from "../public/assets/images/portfolio.jpg";
 
 export default function Home() {
     return (
@@ -14,12 +13,20 @@ export default function Home() {
             <Head>
                 <title>Olegas Sevcenko | Portfolio</title>
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Olegas Sevcenko - Full Stack Developer | Portfolio" />
-                <meta property="og:type" content="website" />
-                <meta property="og:image" content={portfolio.src} />
-                <meta property="og:description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
+                <meta name="description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
                 <meta property="og:url" content="https://www.olegas.vercel.app" />
-                <meta property="twitter:site" content="@webdevhusky" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Olegas Sevcenko | Portfolio" />
+                <meta property="og:description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
+                <meta property="og:image" content={cover.src} />
+
+
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta property="twitter:domain" content="olegas.vercel.app" />
+                <meta property="twitter:url" content="https://olegas.vercel.app" />
+                <meta property="twitter:title" content="Olegas Sevcenko | Portfolio" />
+                <meta property="twitter:description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
+                <meta property="twitter:image" content={cover.src} />
             </Head>
             <MainLayout>
                 <Hero />
