@@ -1,7 +1,6 @@
 import portfolio from "../public/assets/images/portfolio.jpg";
 import Link from "next/link";
 
-console.log(portfolio);
 function Hero() {
     return (
         <section className="section-padding">
@@ -13,13 +12,11 @@ function Hero() {
                             <br />A web developer.
                         </h1>
                         <p className="mb-10">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero asperiores fugiat facere molestiae. Ipsam aliquam in facere nemo, nostrum asperiores.
+                            Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express
                         </p>
-                        <Link href="#">
-                            <a className="text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">
-                                Contact me
-                            </a>
-                        </Link>
+                        <a href="https://github.com/olegas-sev/" target="_blank" className="text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">
+                            View my Github
+                        </a>
                     </div>
                     <div className="home-hero-right items-center max-w-[298px]">
                         <img

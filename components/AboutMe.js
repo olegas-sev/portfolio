@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 function AboutMe() {
     return (
         <section className="section-padding">
@@ -17,11 +15,6 @@ function AboutMe() {
                         </p>
                     </div>
                 </div>
-                <Link href="#">
-                    <a className="text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">
-                        More about me
-                    </a>
-                </Link>
             </div>
         </section>
     );

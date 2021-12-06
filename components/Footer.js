@@ -17,19 +17,17 @@ function Footer() {
                                 <a className="p-3 text-[#848484] inline-block rounded hover:bg-[#ececec] hover:text-[#1a1a1a] font-medium">Home</a>
                             </Link>
                         </li>
-                        <li className="py-3 ml-0 mb-0 mr-8">
-                            <Link href="/">
-                                <a className="p-3 text-[#848484] inline-block rounded hover:bg-[#ececec] hover:text-[#1a1a1a] font-medium">About</a>
-                            </Link>
-                        </li>
-                        <li className="py-3 ml-0 mb-0">
+                        {/* <li className="py-3 ml-0 mb-0">
                             <Link href="/projects">
                                 <a className="p-3 text-[#848484] inline-block rounded hover:bg-[#ececec] hover:text-[#1a1a1a] font-medium">Projects</a>
                             </Link>
+                        </li> */}
+                        <li className="py-3 ml-0 mb-0">
+                            <a href="/assets/Resume.pdf" target="_blank" className="p-3 text-[#848484] inline-block rounded hover:bg-[#ececec] hover:text-[#1a1a1a] font-medium">Resume</a>
                         </li>
                     </ul>
                     <div className="hidden md:flex items-center">
-                        <Link href="/contact-me">
+                        <Link href="mailto: sevcenko.olegas@gmail.com">
                             <a className="text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out">
                                 Contact Me
                             </a>
@@ -38,7 +36,7 @@ function Footer() {
                 </div>
                 <Divider />
                 <div className="small-print mt-5 ">
-                    Made with ❤️ by <a href="https://github.com/olegas-sev" className="text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">OlegasSev</a> | Portfolio 2021 
+                    Made with ❤️ by <a href="https://github.com/olegas-sev" target="_blank" className="text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out underline">OlegasSev</a> | Portfolio 2021
                 </div>
             </div>
         </section>

@@ -6,7 +6,7 @@ function Header() {
     function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
     }
-    
+
     return (
         <header className="sticky top-0 z-50">
             <div id="navbar-observer" className="max-w-[893px] px-6 mx-auto">
@@ -20,20 +20,15 @@ function Header() {
                         </h2>
                         {/* Middle */}
                         <nav className="hidden md:flex ml-8">
-                            <Link href="/about">
-                                <a className="navlink">About</a>
-                            </Link>
-                            <Link href="/projects">
+                            {/* <Link href="/projects">
                                 <a className="navlink">Projects</a>
-                            </Link>
-                            <Link href="/assets/Resume.pdf">
-                                <a className="navlink">Resume</a>
-                            </Link>
+                            </Link> */}
+                            <a href="/assets/Resume.pdf" target="_blank" className="navlink">Resume</a>
                         </nav>
                     </div>
                     {/* Right */}
                     <div className="hidden md:flex items-center" >
-                        <Link href="/contact-me">
+                        <Link href="mailto: sevcenko.olegas@gmail.com">
                             <a className="ml-5 text-lg font-semibold text-[#1a1a1a] transition duration-300 hover:opacity-60 ease-out">
                                 Contact Me
                             </a>
@@ -42,11 +37,7 @@ function Header() {
                     {/* Mobile */}
                     <div className="md:hidden flex items-center">
                         <button className="outline-none mobile-menu-button"
-                            onClick={() => {
-                                isOpen(!open)
-                                console.log(open);
-                            }
-                            }
+                            onClick={() => isOpen(!open)}
                         >
                             <svg
                                 className="w-6 h-6 text-gray-500"
@@ -71,12 +62,10 @@ function Header() {
                         <Link href="/about">
                             <a className="block text-sm px-2 py-4 text-custom-gray bg-gray-50 font-semibold">About</a>
                         </Link>
-                        <Link href="/projects">
+                        {/* <Link href="/projects">
                             <a className="block text-sm px-2 py-4 text-custom-gray hover:bg-gray-50 transition duration-300 font-semibold">Projects</a>
-                        </Link>
-                        <Link href="/assets/Resume.pdf">
-                            <a className="block text-sm px-2 py-4 text-custom-gray hover:bg-gray-50 transition duration-300 font-semibold">Resume</a>
-                        </Link>
+                        </Link> */}
+                        <a href="/assets/Resume.pdf" target="_blank" className="block text-sm px-2 py-4 text-custom-gray hover:bg-gray-50 transition duration-300 font-semibold">Resume</a>
                     </nav>
                 </div>
             </div>
