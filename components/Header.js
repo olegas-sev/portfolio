@@ -59,9 +59,9 @@ function Header() {
                 <div className={classNames(!open ? 'hidden' : null, 'mobile-menu bg-gray-50 w-screen absolute left-0 px-6')}
                 >
                     <nav>
-                        <Link href="/about">
+                        {/* <Link href="/about">
                             <a className="block text-sm px-2 py-4 text-custom-gray bg-gray-50 font-semibold">About</a>
-                        </Link>
+                        </Link> */}
                         {/* <Link href="/projects">
                             <a className="block text-sm px-2 py-4 text-custom-gray hover:bg-gray-50 transition duration-300 font-semibold">Projects</a>
                         </Link> */}
