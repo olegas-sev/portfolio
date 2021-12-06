@@ -11,6 +11,7 @@ import portfolioImg from "../public/assets/images/portfolio.jpg";
 
 
 export default function Home() {
+    console.log();
     return (
         <div>
             <Head>
@@ -21,12 +22,12 @@ export default function Home() {
                 <meta property="og:description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
                 <meta property="og:url" content="https://olegas.vercel.app" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content={portfolioImg} />
-                <meta property="og:image:secure_url" content={portfolioImg} />
-                <meta property="og:image:width" content="1280" />
-                <meta property="og:image:height" content="640" />
+                <meta property="og:image" content={"https://olegas.vercel.app" + coverImg.src} />
+                <meta property="og:image:secure_url" content={"https://olegas.vercel.app" + coverImg.src} />
+                <meta property="og:image:width" content={coverImg.width} />
+                <meta property="og:image:height" content={coverImg.height} />
                 <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:image" content={portfolioImg} />
+                <meta property="twitter:image" content={"https://olegas.vercel.app" + coverImg.src} />
                 <meta property="twitter:site" content="@webdevhusky" />
 
                 {/* <meta name="description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
