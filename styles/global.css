@@ -28,4 +28,10 @@
     .section-padding {
         @apply pt-8 pb-16 md:py-20 lg:py-28;
     }
+    ::-moz-selection {
+        @apply bg-[#333] text-white
+    }
+    ::selection {
+        @apply bg-[#333] text-white
+    }
 }
