@@ -11,7 +11,6 @@ import portfolioImg from "../public/assets/images/portfolio.jpg";
 
 
 export default function Home() {
-    console.log();
     return (
         <div>
             <Head>
@@ -22,7 +21,7 @@ export default function Home() {
                 <meta property="og:description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
                 <meta property="og:url" content="https://olegas.vercel.app" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content={"https://olegas.vercel.app" + coverImg.src} />
+                <meta property="og:image" content={"https://olegas.vercel.app" + portfolioImg.src} />
                 <meta property="og:image:secure_url" content={"https://olegas.vercel.app" + coverImg.src} />
                 <meta property="og:image:width" content={coverImg.width} />
                 <meta property="og:image:height" content={coverImg.height} />
