@@ -1,5 +1,4 @@
-import portfolio from "../public/assets/images/portfolio.jpg";
-import Link from "next/link";
+import portfolioImg from "../public/assets/images/portfolio.jpg";
 
 function Hero() {
     return (
@@ -20,7 +19,7 @@ function Hero() {
                     </div>
                     <div className="home-hero-right items-center max-w-[298px]">
                         <img
-                            src={portfolio.src}
+                            src={portfolioImg.src}
                             className="rounded-2xl w-full max-w-[298px]"
                         />
                     </div>
