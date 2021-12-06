@@ -23,12 +23,12 @@ export default function Home() {
                 <meta property="og:image" content={cover.src} />
 
 
-                <meta property="twitter:card" content="summary_large_image" />
+                <meta name="twitter:card" content="summary_large_image" />
                 <meta property="twitter:domain" content="olegas.vercel.app" />
                 <meta property="twitter:url" content="https://olegas.vercel.app" />
-                <meta property="twitter:title" content="Olegas Sevcenko | Portfolio" />
-                <meta property="twitter:description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
-                <meta property="twitter:image" content={cover.src} />
+                <meta name="twitter:title" content="Olegas Sevcenko | Portfolio" />
+                <meta name="twitter:description" content="Full Stack Developer with strong knowledge of Javascript, modern technologies & frameworks such as React, Vue & Express" />
+                <meta name="twitter:image" content={cover.src} />
             </Head>
             <MainLayout>
                 <Hero />
