@@ -18,7 +18,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
 
                 <meta property="og:site_name" content="Colby Fayock" />
-                <meta property=“og:title” content=“Anyone Can Map! Inspiration and an introduction to the world of mapping - Colby Fayock" />
+                <meta property="og:title" content="Anyone Can Map! Inspiration and an introduction to the world of mapping - Colby Fayock" />
                 <meta property="og:description" content="Chef Gusteau was a visionary who created food experiences for the world to enjoy. How can we take his lessons and apply them to the world of…" />
                 <meta property="og:url" content="https://www.colbyfayock.com/2020/03/anyone-can-map-inspiration-and-an-introduction-to-the-world-of-mapping/" />
                 <meta property="og:type" content="article" />
