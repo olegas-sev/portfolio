@@ -6,6 +6,8 @@ import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import Divider from "../components/Divider";
 import Technologies from "../components/Technologies";
+import cover from "../public/assets/images/cover.png";
+
 
 export default function Home() {
     return (
