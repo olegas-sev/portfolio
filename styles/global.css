@@ -1,4 +1,6 @@
+@tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 /* 
 #1a1a1a - small
@@ -7,31 +9,37 @@
 */
 
 @layer components {
-    .divider {
-        @apply w-full h-[1px] bg-[#ECECEC];
-    }
-    .navlink {
-        @apply ml-1 text-base font-semibold text-[#848484] rounded p-[10px] hover:bg-[#ececec] hover:text-[#1a1a1a] transition duration-200 ease-out;
-    }
-    .container-default {
-        @apply max-w-[893px] mx-auto px-6;
-    }
-    h1, h2, h3, h4, h5, h6, p {
-        @apply text-[#1a1a1a];
-    }
-    .section-title {
-        @apply mt-0 mb-4 text-[2rem] font-semibold;
-    }
-    .section-subtitle {
-        @apply mt-0 mb-4 text-3xl font-semibold;
-    }
-    .section-padding {
-        @apply pt-8 pb-16 md:py-20 lg:py-28;
-    }
-    ::-moz-selection {
-        @apply bg-[#333] text-white
-    }
-    ::selection {
-        @apply bg-[#333] text-white
-    }
+  .divider {
+    @apply w-full h-[1px] bg-[#ECECEC];
+  }
+  .navlink {
+    @apply ml-1 text-base font-semibold text-[#848484] rounded p-[10px] hover:bg-[#ececec] hover:text-[#1a1a1a] transition duration-200 ease-out;
+  }
+  .container-default {
+    @apply max-w-[893px] mx-auto px-6;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    @apply text-[#1a1a1a];
+  }
+  .section-title {
+    @apply mt-0 mb-4 text-[2rem] font-semibold;
+  }
+  .section-subtitle {
+    @apply mt-0 mb-4 text-3xl font-semibold;
+  }
+  .section-padding {
+    @apply pt-8 pb-16 md:py-20 lg:py-28;
+  }
+  ::-moz-selection {
+    @apply bg-[#333] text-white;
+  }
+  ::selection {
+    @apply bg-[#333] text-white;
+  }
 }

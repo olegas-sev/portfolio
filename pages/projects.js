@@ -1,20 +1,19 @@
-import Head from "next/head";
+import Head from 'next/head';
 // Layouts
-import MainLayout from "../layouts/MainLayout";
+import MainLayout from '../layouts/MainLayout';
 // Compontents
-import Projects from "../components/Projects";
-
+import Projects from '../components/Projects';
 
 export default function Home() {
-    return (
-        <div>
-            <Head>
-                <title>Olegas Sevcenko | Portfolio</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <MainLayout>
-                <Projects />
-            </MainLayout>
-        </div>
-    );
+  return (
+    <div>
+      <Head>
+        <title>Olegas Sevcenko | Projects</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <MainLayout>
+        <Projects />
+      </MainLayout>
+    </div>
+  );
 }
